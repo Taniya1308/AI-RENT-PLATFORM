@@ -4,6 +4,80 @@ AI-powered room rental platform with compatibility scoring, real-time chat, and 
 
 ---
 
+## Folder Structure
+
+```
+ai-rent-platform/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── adminController.js
+│   │   │   ├── authController.js
+│   │   │   ├── chatController.js
+│   │   │   ├── interestController.js
+│   │   │   ├── listingController.js
+│   │   │   └── tenantController.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   └── upload.js
+│   │   ├── models/
+│   │   │   └── database.js
+│   │   ├── routes/
+│   │   │   ├── admin.js
+│   │   │   ├── auth.js
+│   │   │   ├── chat.js
+│   │   │   ├── compatibility.js
+│   │   │   ├── interests.js
+│   │   │   ├── listings.js
+│   │   │   └── tenant.js
+│   │   ├── services/
+│   │   │   ├── compatibilityService.js
+│   │   │   ├── emailService.js
+│   │   │   └── websocketService.js
+│   │   └── server.js
+│   ├── .env.example
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ListingCard.js
+│   │   │   ├── Navbar.js
+│   │   │   ├── ProtectedRoute.js
+│   │   │   ├── ScoreBadge.js
+│   │   │   └── Toast.js
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   ├── hooks/
+│   │   │   └── useWebSocket.js
+│   │   ├── pages/
+│   │   │   ├── AdminPanel.js
+│   │   │   ├── Chat.js
+│   │   │   ├── Home.js
+│   │   │   ├── ListingDetail.js
+│   │   │   ├── ListingForm.js
+│   │   │   ├── Listings.js
+│   │   │   ├── Login.js
+│   │   │   ├── OwnerInterests.js
+│   │   │   ├── OwnerListings.js
+│   │   │   ├── Register.js
+│   │   │   ├── TenantInterests.js
+│   │   │   └── TenantProfile.js
+│   │   ├── utils/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── index.css
+│   │   └── index.js
+│   ├── .env.example
+│   ├── package.json
+│   └── vercel.json
+├── .gitignore
+└── README.md
+```
+
+---
+
 ## Setup
 
 ### Backend
