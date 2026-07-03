@@ -1,5 +1,5 @@
 {
-  "name": "rent-flatmate-finder-backend",
+  "name": "ai-rent-platform-backend",
   "version": "1.0.0",
   "description": "Backend API for Rent & Flatmate Finder platform",
   "main": "src/server.js",
