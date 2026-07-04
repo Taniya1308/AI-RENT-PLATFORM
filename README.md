@@ -6,12 +6,6 @@ A full-stack web application that helps property owners list rental properties a
 
 ---
 
-## 📸 Preview
-
-> ![alt text](image-1.png)
-
----
-
 ## ✨ Features
 
 **👤 Authentication**
